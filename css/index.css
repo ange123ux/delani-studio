@@ -1,0 +1,174 @@
+h1{
+    font-size: 20px;
+}
+.introduction > h6{
+    font-size: 10px;
+}
+.introduction{
+    background-image: url(../IP3/assets/backgrounds/h_img.jpg);
+    color:white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+.about{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 8px;
+}
+.services{
+    background-image: url(../IP3/assets/backgrounds/s_image.jpg);
+    color:white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    height: 70px;
+    background-size: cover;
+    font-size: 8px;
+}
+.activities{
+    text-align: center;
+    padding-bottom: 0px;
+}
+.design{
+    float: left;
+    padding-left: 80px;
+}
+.icon{
+    float: left;
+    padding-left: 250px;
+}
+.product{
+    float: right;
+    padding-left: 200px;
+    margin-right: 150px;
+    padding-top: 0px;
+}
+.acts{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.one-one{
+    float: left;
+    padding-left: 70px;
+}
+.two-two{
+    float: left;
+    padding-left: 220px;
+}
+.three-three{
+    float: right;
+    padding-left: 110px;
+    margin-right: 150px;
+    padding-top: 0px;
+}
+#one{
+    text-align: center;
+}
+#two{
+    text-align: center;
+}
+#three{
+    text-align: center;
+}
+.bailey{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;  
+}
+.overlay{
+    position: absolute;
+    top: 1200px;
+    right: 120px; 
+}
+.bailey > img{
+    filter:blur(2px);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .flex-container > div {
+    margin: 5px;
+    padding: 5px;
+  }
+#portfolio{
+    text-align: center;
+}
+#talk{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.here{
+    text-align: center;
+    margin-top: 10px;
+}
+.contact{
+    margin: 10px;
+    padding: 20px;
+    padding-left: 200px;
+    padding-top: 0px;
+}
+.background{
+    background-image: url(../IP3/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.social{
+    text-align: center;
+    padding-top: 15px;
+}
+img {
+    padding: 5px;
+}
+h6{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media screen and (max-width:119px){
+    .activities{
+        flex-direction: column;
+    }
+    .design{
+        /* flex-direction: column; */
+        width: 100%; 
+        text-align: center;
+    }
+    .icon{
+        /* flex-direction: column; */
+        width: 100%; 
+        text-align: center;
+        padding-left: 1px;
+    }
+    .product{
+        /* flex-direction: column; */
+        width: 100%; 
+        /* text-align: center;
+        justify-content: center; */
+    }
+}
+@media screen and (max-width:600px){
+    img{
+        flex-direction: column;
+    }
+    .contact {
+            padding-left: 50px; 
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .contact{
+        padding-left:10px;
+        width: 100%;
+    }
+}
