@@ -131,6 +131,7 @@ h6{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 @media screen and (max-width:119px){
     .activities{
         flex-direction: column;
