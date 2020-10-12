@@ -7,12 +7,11 @@ $(document).ready(function () {
 $(".icon").click(function () {
     $("#two").toggle();
 });
-         
+
 $(".product").click(function () {
     $("#three").toggle();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     alert("Hello! Thank you for reaching out to us.")
 });
-    
