@@ -13,5 +13,5 @@ $(".product").click(function () {
 });
 
 $(document).ready(function () {
-    alert("Hello! Thank you for reaching out to us.")
+    alert("Hello! Thank you for reaching out to us!")
 });
