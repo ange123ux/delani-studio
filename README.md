@@ -20,7 +20,7 @@ I consider myself as someone who is lucky because I grew up in a family where I 
 I used programing languages to code Delani Studio page such as HTML language, js language and CSS for styling.
 
   ## PROJECTS THAT I DESIGNED
-[my Akan name project](https://ange123ux.github.io/akan-names/)
+[Delani Studio Page](https://ange123ux.github.io/delani-studio/)
 
 MIT License
 Permission is hereby granted, free of charge, to any person obtaining a copy
