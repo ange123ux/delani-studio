@@ -5,7 +5,7 @@ h1{
     font-size: 10px;
 }
 .introduction{
-    background-image: url(../IP3/assets/backgrounds/h_img.jpg);
+    background-image: url(../images/backgrounds/h_img.jpg);
     color:white;
     text-align: center;
     padding-top: 150px;
@@ -19,7 +19,7 @@ h1{
     font-size: 8px;
 }
 .services{
-    background-image: url(../IP3/assets/backgrounds/s_image.jpg);
+    background-image: url(../images/backgrounds/s_image.jpg);
     color:white;
     text-align: center;
     padding-top: 60px;
@@ -38,7 +38,7 @@ h1{
 }
 .icon{
     float: left;
-    padding-left: 250px;
+    padding-left: 450px;
 }
 .product{
     float: right;
@@ -46,26 +46,14 @@ h1{
     margin-right: 150px;
     padding-top: 0px;
 }
-.acts{
-    text-align: center;
-    padding-bottom: 70px;
-}
-.one-one{
-    float: left;
-    padding-left: 70px;
-}
-.two-two{
-    float: left;
-    padding-left: 220px;
-}
-.three-three{
-    float: right;
-    padding-left: 110px;
-    margin-right: 150px;
-    padding-top: 0px;
+.move{
+    display: inline-grid;
+    grid-auto-flow: column;
+    gap: 5rem;
 }
 #one{
     text-align: center;
+    
 }
 #two{
     text-align: center;
@@ -81,8 +69,8 @@ h1{
 }
 .overlay{
     position: absolute;
-    top: 1200px;
-    right: 120px; 
+    top: 1370px;
+    right: 330px;
 }
 .bailey > img{
     filter:blur(2px);
@@ -109,20 +97,35 @@ h1{
     text-align: center;
     margin-top: 10px;
 }
+.here ::placeholder{
+    color: white; 
+}
+#name{
+    background: transparent;
+    
+}
+#email{
+    background: transparent;
+   
+}
 .contact{
     margin: 10px;
     padding: 20px;
-    padding-left: 200px;
+    padding-left: 409px;
     padding-top: 0px;
 }
+.textarea{
+    background: transparent;
+    color: white;
+}
 .background{
-    background-image: url(../IP3/assets/backgrounds/c_image.jpg);
+    background-image: url(../images/backgrounds/c_image.jpg);
     background-size: cover;
     height: 300px;
 }
 .social{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 120px;
 }
 img {
     padding: 5px;
@@ -130,6 +133,11 @@ img {
 h6{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.submit{
+    padding-top: 15px;
+    text-align: center;
 }
 
 @media screen and (max-width:119px){
