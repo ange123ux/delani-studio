@@ -1,16 +1,16 @@
 
-$(document).ready(function () {
-    $(".design").click(function () {
-        $("#one").toggle();
-    });
-});
-$(".icon").click(function () {
-    $("#two").toggle();
-});
+// $(document).ready(function () {
+//     $(".design").click(function () {
+//         $("#one").toggle();
+//     });
+// });
+// $(".icon").click(function () {
+//     $("#two").toggle();
+// });
 
-$(".product").click(function () {
-    $("#three").toggle();
-});
+// $(".product").click(function () {
+//     $("#three").toggle();
+// });
 
 function myFunction(){
     var text;
@@ -20,4 +20,37 @@ function myFunction(){
     document.getElementById("demo").innerHTML = text;
 }
 
+
+$(document).ready(function(){
+    $('.design').click(function(){
+        $('.description').show();
+        $('.design').hide();
+    });
+    $('.description').click(function(){
+        $('.design').show();
+        $('.description').hide();
+    });
+});
+
+$(document).ready(function(){
+    $('.icon').click(function(){
+        $('.devel').show();
+        $('.icon').hide();
+    });
+    $('.devel').click(function(){
+        $('.icon').show();
+        $('.devel').hide();
+    });
+});
+
+$(document).ready(function(){
+    $('.product').click(function(){
+        $('.pro').show();
+        $('.product').hide();
+    });
+    $('.pro').click(function(){
+        $('.product').show();
+        $('.pro').hide();
+    });
+});
 

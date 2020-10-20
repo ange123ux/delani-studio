@@ -1,14 +1,14 @@
 h1{
-    font-size: 20px;
+    font-size: 24px;
 }
 .introduction > h6{
-    font-size: 10px;
+    font-size: 15px;
 }
 .introduction{
     background-image: url(../images/backgrounds/h_img.jpg);
     color:white;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 10px;
     background-size: cover;
 }
@@ -16,7 +16,7 @@ h1{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 8px;
+    font-size: 12px;
 }
 .services{
     background-image: url(../images/backgrounds/s_image.jpg);
@@ -26,30 +26,24 @@ h1{
     padding-bottom: 150px;
     height: 70px;
     background-size: cover;
-    font-size: 8px;
+    font-size: 13px;
 }
-.activities{
+h3{
     text-align: center;
-    padding-bottom: 0px;
 }
-.design{
-    float: left;
-    padding-left: 80px;
+.what{
+    padding-top: 45px;
+    text-align: center;
+    padding-bottom: 30px;
 }
-.icon{
-    float: left;
-    padding-left: 450px;
+.devel{
+    display: none;
 }
-.product{
-    float: right;
-    padding-left: 200px;
-    margin-right: 150px;
-    padding-top: 0px;
+.pro{
+    display: none;
 }
-.move{
-    display: inline-grid;
-    grid-auto-flow: column;
-    gap: 5rem;
+.description{
+    display: none;
 }
 #one{
     text-align: center;
@@ -69,7 +63,7 @@ h1{
 }
 .overlay{
     position: absolute;
-    top: 1370px;
+    top: 1200px;
     right: 330px;
 }
 .bailey > img{
@@ -125,7 +119,7 @@ h1{
 }
 .social{
     text-align: center;
-    padding-top: 120px;
+    padding-top: 30px;
 }
 img {
     padding: 5px;
@@ -136,7 +130,6 @@ h6{
 }
 
 .submit{
-    padding-top: 15px;
     text-align: center;
 }
 
